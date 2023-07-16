@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  max-width: 64rem;
   width: 100%;
   background-color: transparent;
   color: var(--talo-green);
@@ -35,9 +36,10 @@
 .faq .active::after {
   content: '-';
 }
-
+/* 
 .faq-answer {
+  max-width: 64rem;
   display: flex;
   flex-direction: column;
   gap: 1em;
-}
+} */
