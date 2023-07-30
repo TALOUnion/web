@@ -84,8 +84,7 @@ p {
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
-  width: 60rem;
-  @apply max-w-5xl;
+  @apply max-w-6xl;
   @apply m-auto;
   @apply py-12;
   @apply px-6;
@@ -135,7 +134,9 @@ a {
   .page-wrapper {
     position: relative;
     top: 18vh;
-    min-height: calc(100vh - var(--mobile-banner-height) - var(--navbar-height));
+    min-height: calc(
+      100vh - var(--mobile-banner-height) - var(--navbar-height)
+    );
   }
 
   .page-body {
