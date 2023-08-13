@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '@styles/FaqPage.css';
 
 type Props = {
   question: string;
