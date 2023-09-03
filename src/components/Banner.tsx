@@ -5,10 +5,7 @@ const Banner = () => {
   return (
     <div className="Banner">
       <p>
-        TALO is currently in the process of bargaining with Brown on a union
-        contract. Follow{' '}
-        <a href="https://www.instagram.com/talabororg/">our Instagram</a> for
-        updates!
+        TALO just won it's first contract with Brown! Read an annotated version <a href="https://docs.google.com/document/d/1lqETFTjRDmhdmwVy6EfyRj-TKVJguOkQ/edit#heading=h.gjdgxs">here</a>. 
       </p>
     </div>
   );
