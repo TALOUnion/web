@@ -43,7 +43,8 @@ body {
   --banner-color: #b6ece4;
   --navbar-height: 12vh;
   --banner-height: 7vh;
-  --mobile-banner-height: 10vh;
+  /* Adjust this when removing banner from the site! */
+  --mobile-banner-height: 0vh;
   --vote-yes-color: #12927e;
   --vote-no-color: #921226;
   --table-border-color: #2f4f4f59;
@@ -133,7 +134,7 @@ a {
 @media only screen and (max-width: 920px) {
   .page-wrapper {
     position: relative;
-    top: 18vh;
+    top: calc(var(--navbar-height) - var(--mobile-banner-height));
     min-height: calc(100vh - var(--mobile-banner-height) - var(--navbar-height));
   }
 
