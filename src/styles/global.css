@@ -169,3 +169,12 @@ a {
   width: 14rem;
   height: 14rem;
 }
+
+table, th, td {
+  border: 1px solid var(--talo-green);
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px 10px 10px 10px;
+}
