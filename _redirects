@@ -8,3 +8,10 @@ http://talounion.netlify.app/*    https://talounion.org/:splat    301!
 http://talo.fyi/*  https://talo.fyi/*
 https://talo.fyi/election/  https://talounion.org/election-info/
 https://talo.fyi/*  https://talounion.org/:splat   301!
+
+# Contract
+/contract   /our-contract
+
+# Report an Issue
+/issue  /report-an-issue
+/report /report-an-issue
